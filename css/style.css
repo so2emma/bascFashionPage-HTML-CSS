@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.settings{
+    background-color: #000000;
+    color: #dfd9d9;
+    font-size: 1rem;
+}
+.options{
+    color: #dfd9d9;
+    background-color: #000000;
+    margin: auto;
+    border: none;
+}
+.options select{
+    margin: 1rem;
+}
+.logo{
+    display: inline;
+    font-size: 1rem;
+}
+.links{
+    margin: auto;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline;
+    text-decoration: none;
+    padding: 0 1rem 0 1rem;
+    margin: auto;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+header{
+    height: 5rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    position: absolute;
+    /* position: relative; */
+    width: 100%;
+}
+.banner{
+    /* position:relative; */
+    margin-bottom: 1rem;
+}
+.banner .content{
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    padding: 0 10% 0 10%;
+}
+.content span{
+    font-size: 0.75rem;
+}
+.content h2{
+    font-size: 4rem;
+    margin: 1.5rem 0 2.5rem 0;
+    font-family:monospace;
+}
+.content a{
+    background-color: #dd3b3b;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #ffffff;
+    border-radius: 0.5rem;
+}
+.stores{
+    width: 80%;
+    margin: auto;
+}
+
+/* POSITIONING */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+}
+.col-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+}
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.col-4{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
